@@ -1,6 +1,8 @@
 name: CI - Build e teste da Imagem DOcker
 
-on: [push]
+on: 
+  push:
+    branches: [main]
 
 jobs:
   build_and_test:
